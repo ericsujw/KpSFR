@@ -1,0 +1,28 @@
+--batch_size                4                              
+--checkpoints_dir           checkpoint                     
+--ckpt_path                 checkpoint/kpsfr_dicebceloss.pth                                
+--custom_worldcup_root      dataset/WorldCup_2014_2018   
+--sfp_finetuned             False   
+--gpu_ids                   0                              
+--isTrain                   False                           	
+--loss_mode                 all
+--model_archi               KC                        
+--name                      example/exp_dice_bce                         
+--nms_thres                 0.995                           
+--noise_rotate              0.0084                          
+--noise_trans               5.0                            
+--num_objects               4                              
+--pr_thres                  5.0                            
+--public_worldcup_root      dataset/soccer_worldcup_2014/soccer_data 
+--resume                    False                       
+--step_size                 200                            
+--template_path             assets                       
+--testset                   test                           
+--train_epochs              1500                            
+--train_lr                  0.0001                         
+--train_stage               1                              
+--trainset                  train                      
+--use_non_local             1                              
+--weight_decay              0.0                            
+--target_video              
+--target_image              
