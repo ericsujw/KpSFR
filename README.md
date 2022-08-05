@@ -26,7 +26,7 @@ To extensively evaluate our method, we introduce a new soccer dataset, called TS
 - Pytorch == 1.9.0
 - torchvision == 0.9.0
 - Numpy
-- OpenCV-Python
+- OpenCV-Python == 4.5.1.48
 - Matplotlib
 - Pillow/scikit-image
 - Shapely == 1.7.1
@@ -56,6 +56,9 @@ conda activate kpsfr
 5. Now the WorldCup dataset would place in [dataset/soccer_worldcup_2014](dataset/soccer_worldcup_2014) and TS-WorldCup in [dataset/WorldCup_2014_2018](dataset/WorldCup_2014_2018).
 
 ## Inference
+
+Please use [robust](robust) model first to get the preprocess results before running the inference command below.
+
 ### Inference command
 ```python
 python inference.py <path/param_text_file>
@@ -72,6 +75,9 @@ Note:
 - Execute and output all testing data if not specify target image or video.
 
 ## Evaluation
+
+Please use [robust](robust) model first to get the preprocess results before running the evaluation command below.
+
 ### Evaluation command
 ```python
 python eval_testset.py <path/param_text_file>
