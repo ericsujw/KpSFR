@@ -57,7 +57,7 @@ class CustomOptions():
         parser.add_argument('--model_archi', type=str,
                             default='KC_STCN', help='KC_STCN or KC or STCN')
         parser.add_argument('--loss_mode', type=str,
-                            default='all', help='all or dice_bce or dice_wce')
+                            default='', help='all or dice_bce or dice_wce')
         parser.add_argument('--use_non_local', type=int,
                             default=1, help='if use non local block layer')
         parser.add_argument('--train_epochs', type=int, default=300)

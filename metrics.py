@@ -144,7 +144,7 @@ def calc_proj_error(pred_h, gt_h, frame, template, frame_w=1280, frame_h=720, te
     gt_mask = cv2.warpPerspective(field_mask, np.linalg.inv(
         gt_h), (frame_w, frame_h), borderMode=cv2.BORDER_CONSTANT, borderValue=(0))
     gt_gray = cv2.cvtColor(gt_mask, cv2.COLOR_BGR2GRAY)
-    _, contours, hierarchy = cv2.findContours(
+    contours, hierarchy = cv2.findContours(
         gt_gray, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     contour = np.squeeze(contours[0])
     poly = Polygon(contour)
