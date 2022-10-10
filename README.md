@@ -3,7 +3,7 @@
 This is an official implementation of Sports Field Registration via Keypoints-aware Label Condition.
 
 Yen-Jui Chu, Jheng-Wei Su, Kai-Wen Hsiao, Chi-Yu Lien, Shu-Ho Fan, 
-Min-Chun Hu1, Ruen-Rone Lee, Chih-Yuan Yao, Hung-Kuo Chu
+Min-Chun Hu, Ruen-Rone Lee, Chih-Yuan Yao, Hung-Kuo Chu
 
 8th International Workshop on Computer Vision in Sports (CVsports) at CVPR 2022
 
